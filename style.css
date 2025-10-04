@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* background gambar kucing + overlay orange transparan */
+    background: 
+        linear-gradient(rgba(255, 140, 66, 0.6), rgba(255, 140, 66, 0.6)),
+        url('kucing.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #333;
+    text-align: center;
+}
+/* Semua section dibungkus kotak */
+section {
+    background: rgba(255, 255, 255, 0.85); /* putih transparan */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px; /* biar nggak terlalu lebar */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* efek bayangan */
+    text-align: center;
+}
+
+/* Untuk list fitur */
+.features li {
+    background: #ffe3c2;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
